@@ -1,0 +1,21 @@
+{
+  "name": "valley-of-bowser-theme",
+  "displayName": "Valley of Bowser Theme",
+  "description": "A clean dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Valley of Bowser",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Valley of Bowser-color-theme.json"
+      }
+    ]
+  }
+}
