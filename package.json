@@ -3,6 +3,7 @@
   "displayName": "Valley of Bowser Theme",
   "description": "A clean dark theme",
   "version": "0.0.1",
+  "publisher": "CaioDeoli",
   "engines": {
     "vscode": "^1.107.0"
   },
