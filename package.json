@@ -17,5 +17,9 @@
         "path": "./themes/Valley of Bowser-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioDeoli/valley-of-bowser-theme.git"
   }
 }
