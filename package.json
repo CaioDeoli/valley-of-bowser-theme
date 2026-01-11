@@ -1,7 +1,7 @@
 {
   "name": "valley-of-bowser-theme",
   "displayName": "Valley of Bowser Theme",
-  "description": "A deep dark theme",
+  "description": "A deep dark theme for VS Code",
   "version": "0.1.2",
   "publisher": "CaioDeoli",
   "license": "MIT",
@@ -26,12 +26,23 @@
       {
         "label": "Valley of Bowser",
         "uiTheme": "vs-dark",
-        "path": "./themes/Valley of Bowser-color-theme.json"
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Valley of Bowser Dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-dimmed.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CaioDeoli/valley-of-bowser-theme.git"
+    "url": "https://github.com/CaioDeoli/valley-of-bowser-theme"
+  },
+   "bugs": {
+    "url": "https://github.com/CaioDeoli/valley-of-bowser-theme/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
