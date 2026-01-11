@@ -10,8 +10,8 @@
 
 ## Color Palette
 
-| Palette | Hex | RGB | HSL | |
-| :--- | :--- | :--- | :--- | :--- |
+| Palette | Hex | RGB | HSL |
+| :--- | :--- | :--- | :--- |
 | **Background** | `#000000` | `0° 0% 0%` | ![#000000](https://placehold.co/15x15/000000/000000) |
 | **Foreground** | `#ededed` | `0° 0% 93%` | ![#ededed](https://placehold.co/15x15/ededed/ededed) |
 | **Blue** | `#87c3ff` | `210° 100% 76%` | ![#87c3ff](https://placehold.co/15x15/87c3ff/87c3ff) |
