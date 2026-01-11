@@ -1,8 +1,37 @@
-# Valley of Bowser Theme
+<!-- markdownlint-disable -->
 
-> A theme between a dark and a high contrast theme, featuring **really black colors** and **muted neon colors**.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/icon.png" alt="logo" width="120">
+</p>
 
-Designed for [VsCode](https://code.visualstudio.com). This theme is excellent for dark rooms and for people with light sensitivity.
+<h1 align="center">Valley of Bowser Theme</h1>
+
+<p align="center"><em>A deep dark theme for <a href="https://code.visualstudio.com">Visual Studio Code</a></em></p>
+
+## Color Palette
+
+| Palette | Hex | RGB | HSL | |
+| :--- | :--- | :--- | :--- | :--- |
+| **Background** | `#000000` | `0° 0% 0%` | ![#000000](https://placehold.co/15x15/000000/000000) |
+| **Foreground** | `#ededed` | `0° 0% 93%` | ![#ededed](https://placehold.co/15x15/ededed/ededed) |
+| **Blue** | `#87c3ff` | `210° 100% 76%` | ![#87c3ff](https://placehold.co/15x15/87c3ff/87c3ff) |
+| **Green** | `#a5cc76` | `80° 39% 59%` | ![#a5cc76](https://placehold.co/15x15/a5cc76/a5cc76) |
+| **Orange** | `#ebc88d` | `39° 68% 73%` | ![#ebc88d](https://placehold.co/15x15/ebc88d/ebc88d) |
+| **Purple** | `#aaa0fa` | `248° 91% 80%` | ![#aaa0fa](https://placehold.co/15x15/aaa0fa/aaa0fa) |
+| **Pink** | `#e394dc` | `308° 63% 75%` | ![#e394dc](https://placehold.co/15x15/e394dc/e394dc) |
+| **Gray** | `#a1a1a1` | `0° 0% 63%` | ![#a1a1a1](https://placehold.co/15x15/a1a1a1/a1a1a1) |
+| **Red** | `#f14c4c` | `0° 79% 60%` | ![#f14c4c](https://placehold.co/15x15/f14c4c/f14c4c) |
+
+## Preview
+
+<details><summary><img />🌐 <b>HTML</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-html-preview.png" alt="html preview" width="420"></details>
+
+<details><summary>🟨 <b>JavaScript</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-js-preview.png" alt="javascript preview" width="420" /></details>
+
+<details><summary>🐍 <b>Python</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-py-preview.png" alt="python preview" width="420" /></details>
+
+<details><summary>☕ <b>Java</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-java-preview.png" alt="java preview" width="420" /></details>
+
 
 ## Install
 
@@ -16,30 +45,12 @@ Designed for [VsCode](https://code.visualstudio.com). This theme is excellent fo
 4. Click **Reload** to reload your editor
 5. File > Preferences > Color Theme > **Valley of Bowser**
 
-## Philosophy
+## Why "Valley of Bowser"?
 
-The goal of this theme is to provide a comfortable coding environment for long sessions in low-light environments. By using a true black background (`#000000`) combined with muted neon syntax highlighting, it reduces eye strain while maintaining high readability. It sits comfortably between a standard dark theme and a high contrast theme.
+The name originates from the darker final world of Super Mario World for the Super Nintendo / Super Famicom. This game is one of my favorites, and the theme’s name is a small homage to it.
 
-### Why "Valley of Bowser"?
-
-The name comes from the darker and last world of **Super Mario World** for the Super Nintendo (SNES) / Super Famicom. Just like the challenging final world, this theme is deep, dark, and vibrant.
-
-## Color Palette
-
-| Palette | Hex | RGB | HSL | |
-| :--- | :--- | :--- | :--- | :--- |
-| **Background** | `#000000` | `0 0 0` | `0° 0% 0%` | ![#000000](https://placehold.co/15x15/000000/000000) |
-| **Foreground** | `#ededed` | `237 237 237` | `0° 0% 93%` | ![#ededed](https://placehold.co/15x15/ededed/ededed) |
-| **Blue** | `#87c3ff` | `135 195 255` | `210° 100% 76%` | ![#87c3ff](https://placehold.co/15x15/87c3ff/87c3ff) |
-| **Selection** | `#0f2f57` | `15 47 87` | `213° 71% 20%` | ![#0f2f57](https://placehold.co/15x15/0f2f57/0f2f57) |
-| **Cyan** | `#82d2ce` | `130 210 206` | `177° 47% 67%` | ![#82d2ce](https://placehold.co/15x15/82d2ce/82d2ce) |
-| **Green** | `#a8cc7c` | `168 204 124` | `87° 44% 64%` | ![#a8cc7c](https://placehold.co/15x15/a8cc7c/a8cc7c) |
-| **Orange** | `#efb080` | `239 176 128` | `26° 78% 72%` | ![#efb080](https://placehold.co/15x15/efb080/efb080) |
-| **Purple** | `#aaa0fa` | `170 160 250` | `247° 90% 80%` | ![#aaa0fa](https://placehold.co/15x15/aaa0fa/aaa0fa) |
-| **Pink** | `#e394dc` | `227 148 220` | `305° 55% 74%` | ![#e394dc](https://placehold.co/15x15/e394dc/e394dc) |
-| **Yellow** | `#ebc88d` | `235 200 141` | `38° 70% 74%` | ![#ebc88d](https://placehold.co/15x15/ebc88d/ebc88d) |
-| **Red** | `#cc7c8a` | `204 124 138` | `350° 44% 64%` | ![#cc7c8a](https://placehold.co/15x15/cc7c8a/cc7c8a) |
-| **Comment** | `#e4e4e45e` | `228 228 228` (Alpha 5E) | `0° 0% 89%` | ![#e4e4e45e](https://placehold.co/15x15/e4e4e4/e4e4e4) |
+And yes… this is only a tribute.
+Please, Nintendo, don’t sue me. 🍄
 
 ## License
 
