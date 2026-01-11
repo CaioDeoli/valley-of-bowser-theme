@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/icon.png" alt="logo" width="120">
+  <img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/master/images/icon.png" alt="logo" width="120">
 </p>
 
 <h1 align="center">Valley of Bowser Theme</h1>
@@ -24,13 +24,13 @@
 
 ## Preview
 
-<details><summary><img />🌐 <b>HTML</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-html-preview.png" alt="html preview" width="420"></details>
+<details><summary><img />🌐 <b>HTML</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/master/images/valley-of-bowser-html-preview.png" alt="html preview" width="420"></details>
 
-<details><summary>🟨 <b>JavaScript</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-js-preview.png" alt="javascript preview" width="420" /></details>
+<details><summary>🟨 <b>JavaScript</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/master/images/valley-of-bowser-js-preview.png" alt="javascript preview" width="420" /></details>
 
-<details><summary>🐍 <b>Python</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-py-preview.png" alt="python preview" width="420" /></details>
+<details><summary>🐍 <b>Python</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/master/images/valley-of-bowser-py-preview.png" alt="python preview" width="420" /></details>
 
-<details><summary>☕ <b>Java</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/images/valley-of-bowser-java-preview.png" alt="java preview" width="420" /></details>
+<details><summary>☕ <b>Java</b></summary><br/><img src="https://raw.githubusercontent.com/CaioDeoli/valley-of-bowser-theme/master/images/valley-of-bowser-java-preview.png" alt="java preview" width="420" /></details>
 
 
 ## Install
