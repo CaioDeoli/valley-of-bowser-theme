@@ -284,7 +284,6 @@
     "keybindingLabel.border": "#2e2e2e99",
     "keybindingLabel.bottomBorder": "#45454599",
     "keybindingLabel.foreground": "#8f8f8f",
-    "keybindingLabel.foreground": "#cccccc",
     "keybindingTable.headerBackground": "#a1a1a10a",
     "keybindingTable.rowsBackground": "#a1a1a10a",
     "list.activeSelectionBackground": "#1a1a1a",
@@ -388,7 +387,6 @@
     "peekViewTitleDescription.foreground": "#a1a1a1b3",
     "peekViewTitleLabel.foreground": "#ffffff",
     "pickerGroup.border": "#454545",
-    "pickerGroup.foreground": "#59a4f9",
     "pickerGroup.foreground": "#ededed",
     "ports.iconRunningProcessForeground": "#000000",
     "problemsErrorIcon.foreground": "#ff6166",
@@ -609,7 +607,7 @@
     "welcomePage.progress.foreground": "#52a8ff",
     "welcomePage.tileBackground": "#0a0a0a",
     "welcomePage.tileBorder": "#ffffff11",
-    "widget.shadow": "#0000005c",
+    "widget.shadow": "#0000005c"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
