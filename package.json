@@ -1,17 +1,26 @@
 {
   "name": "valley-of-bowser-theme",
   "displayName": "Valley of Bowser Theme",
-  "description": "A clean dark theme",
-  "version": "0.1.1",
+  "description": "A deep dark theme",
+  "version": "0.1.2",
   "publisher": "CaioDeoli",
   "license": "MIT",
   "engines": {
-    "vscode": "*"
+    "vscode": "^1.13.0"
   },
   "icon": "images/icon.png",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
