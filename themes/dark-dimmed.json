@@ -1,5 +1,5 @@
 {
-  "name": "Valley of Bowser",
+  "name": "Valley of Bowser Dimmed",
   "colors": {
     "actionBar.toggledBackground": "#7d7d7d66",
     "activityBar.activeBorder": "#7d7d7d",
@@ -598,7 +598,7 @@
     "titleBar.inactiveForeground": "#616161",
     "toolbar.activeBackground": "#6366674F",
     "toolbar.hoverBackground": "#5a5d5e4F",
-    "tree.indentGuidesStroke": "#0a0a0a",
+    "tree.indentGuidesStroke": "#292929",
     "tree.tableColumnsBorder": "#a1a1a121",
     "tree.tableOddRowsBackground": "#a1a1a10a",
     "walkThrough.embeddedEditorBackground": "#00000066",
