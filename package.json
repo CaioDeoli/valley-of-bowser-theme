@@ -2,7 +2,7 @@
   "name": "valley-of-bowser-theme",
   "displayName": "Valley of Bowser Theme",
   "description": "A deep dark theme for VS Code",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "CaioDeoli",
   "license": "MIT",
   "type": "module",
@@ -39,16 +39,6 @@
         "label": "Valley of Bowser",
         "uiTheme": "vs-dark",
         "path": "./themes/dark.json"
-      },
-      {
-        "label": "Valley of Bowser High Contrast (Beta)",
-        "uiTheme": "hc-black",
-        "path": "./themes/dark-high-contrast.json"
-      },
-      {
-        "label": "Valley of Bowser Colorblind (Beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-colorblind.json"
       },
       {
         "label": "Valley of Bowser Dimmed",
