@@ -41,7 +41,7 @@
         "path": "./themes/dark.json"
       },
       {
-        "label": "Valley of Bowser High Contrast",
+        "label": "Valley of Bowser High Contrast (Beta)",
         "uiTheme": "hc-black",
         "path": "./themes/dark-high-contrast.json"
       },
