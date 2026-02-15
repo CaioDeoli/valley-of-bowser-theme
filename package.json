@@ -46,7 +46,7 @@
         "path": "./themes/dark-high-contrast.json"
       },
       {
-        "label": "Valley of Bowser Colorblind",
+        "label": "Valley of Bowser Colorblind (Beta)",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-colorblind.json"
       },
