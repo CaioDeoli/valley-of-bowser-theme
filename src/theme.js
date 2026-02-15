@@ -63,10 +63,9 @@ function applyTokenColorOverrides(tokenColors, tokenColorOverrides) {
   });
 }
 
-function getTheme({ theme, name, baseTheme, dimmedBaseTheme }) {
+function getTheme({ theme, name, baseTheme }) {
   const variant = getColors(theme);
-  const sourceTheme =
-    theme === "dark_dimmed" && dimmedBaseTheme ? dimmedBaseTheme : baseTheme;
+  const sourceTheme = baseTheme;
 
   if (!sourceTheme) {
     throw new Error(`Missing base theme for value: ${theme}`);
@@ -74,10 +73,7 @@ function getTheme({ theme, name, baseTheme, dimmedBaseTheme }) {
 
   const nextTheme = deepClone(sourceTheme);
   nextTheme.name = name || variant.name || nextTheme.name;
-  nextTheme.colors = {
-    ...(nextTheme.colors || {}),
-    ...(variant.colors || {}),
-  };
+  nextTheme.colors = deepClone(variant.colors || {});
 
   if (variant.semanticTokenColors) {
     nextTheme.semanticTokenColors = mergeObjects(

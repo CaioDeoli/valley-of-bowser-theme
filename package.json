@@ -60,6 +60,7 @@
   "scripts": {
     "start": "nodemon --watch src src/index.js",
     "build": "node src/index.js && mkdir -p build",
+    "tokens:sync-dark": "node src/sync-dark-tokens.js",
     "tokens:extract": "node src/extract-tokens.js",
     "package": "vsce package -o ./build/github-vscode-theme.vsix",
     "prepublishOnly": "npm run build && vsce publish",

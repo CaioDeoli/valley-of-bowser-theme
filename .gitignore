@@ -146,4 +146,5 @@ vite.config.ts.timestamp-*
 
 # VSCode files
 *.vsix
+src/tmp/
 themes/

@@ -7,8 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, "..");
 const THEMES_DIR = path.join(ROOT_DIR, "themes");
-const BASE_DARK_THEME_PATH = path.join(THEMES_DIR, "dark.json");
-const BASE_DARK_DIMMED_THEME_PATH = path.join(THEMES_DIR, "dark-dimmed.json");
+const BASE_DARK_THEME_PATH = path.join(__dirname, "base", "dark.json");
 
 const THEMES_TO_BUILD = [
   {
@@ -38,31 +37,28 @@ async function readJson(filePath) {
   return JSON.parse(raw);
 }
 
-async function readJsonIfExists(filePath) {
-  try {
-    return await readJson(filePath);
-  } catch (error) {
-    if (error && error.code === "ENOENT") {
-      return null;
-    }
+function deepClone(value) {
+  return JSON.parse(JSON.stringify(value));
+}
 
-    throw error;
-  }
+function sanitizeBaseTheme(baseTheme) {
+  const cleanBase = deepClone(baseTheme);
+  cleanBase.colors = {};
+  return cleanBase;
 }
 
 async function main() {
-  const darkBaseTheme = await readJson(BASE_DARK_THEME_PATH);
-  const darkDimmedBaseTheme = await readJsonIfExists(BASE_DARK_DIMMED_THEME_PATH);
-
   await fs.mkdir(THEMES_DIR, { recursive: true });
+
+  const rawBaseTheme = await readJson(BASE_DARK_THEME_PATH);
+  const baseTheme = sanitizeBaseTheme(rawBaseTheme);
 
   await Promise.all(
     THEMES_TO_BUILD.map(async ({ theme, name, outputPath }) => {
       const generatedTheme = getTheme({
         theme,
         name,
-        baseTheme: darkBaseTheme,
-        dimmedBaseTheme: darkDimmedBaseTheme,
+        baseTheme,
       });
 
       await fs.writeFile(`${outputPath}`, `${JSON.stringify(generatedTheme, null, 2)}\n`);
