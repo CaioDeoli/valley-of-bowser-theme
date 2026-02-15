@@ -2,7 +2,7 @@
   "name": "valley-of-bowser-theme",
   "displayName": "Valley of Bowser Theme",
   "description": "A deep dark theme for VS Code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "CaioDeoli",
   "license": "MIT",
   "type": "module",
