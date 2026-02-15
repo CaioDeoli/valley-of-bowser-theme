@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "publisher": "CaioDeoli",
   "license": "MIT",
+  "type": "module",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#000000",
@@ -59,6 +60,7 @@
   "scripts": {
     "start": "nodemon --watch src src/index.js",
     "build": "node src/index.js && mkdir -p build",
+    "tokens:extract": "node src/extract-tokens.js",
     "package": "vsce package -o ./build/github-vscode-theme.vsix",
     "prepublishOnly": "npm run build && vsce publish",
     "release": "changeset publish"

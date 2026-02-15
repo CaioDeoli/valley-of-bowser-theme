@@ -1,0 +1,32 @@
+{
+  "name": "Valley of Bowser Colorblind",
+  "colors": {
+    "button.background": "{palette.brand.blueMuted}",
+    "button.hoverBackground": "{palette.brand.blue}",
+    "progressBar.background": "{palette.brand.blue}",
+    "charts.green": "{palette.accent.success}",
+    "debugIcon.startForeground": "{palette.accent.success}",
+    "debugIcon.restartForeground": "{palette.accent.success}",
+    "debugIcon.breakpointStackframeForeground": "{palette.accent.success}",
+    "gitDecoration.addedResourceForeground": "{palette.accent.success}",
+    "gitDecoration.modifiedResourceForeground": "{palette.brand.blueSoft}",
+    "diffEditor.insertedLineBackground": "#40b0a633",
+    "diffEditor.insertedTextBackground": "#40b0a64d",
+    "terminal.ansiGreen": "{palette.accent.success}",
+    "terminal.ansiBrightGreen": "{palette.accent.successBright}",
+    "notebookStatusSuccessIcon.foreground": "{palette.accent.success}",
+    "markdownAlert.tip.foreground": "{palette.accent.success}",
+    "testing.peekBorder": "{palette.accent.danger}"
+  },
+  "tokenColorOverrides": {
+    "markup.inserted.diff": {
+      "foreground": "{palette.accent.successBright}"
+    },
+    "markup.deleted.diff": {
+      "foreground": "{palette.accent.dangerSoft}"
+    },
+    "markup.changed.diff": {
+      "foreground": "{palette.accent.warning}"
+    }
+  }
+}

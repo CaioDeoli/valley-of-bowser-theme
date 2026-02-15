@@ -1,0 +1,13 @@
+{
+  "name": "Valley of Bowser Dimmed",
+  "colors": {
+    "editor.background": "{palette.neutral.02}",
+    "sideBar.background": "{palette.neutral.00}",
+    "panel.background": "{palette.neutral.00}",
+    "notificationCenterHeader.background": "{palette.neutral.02}",
+    "statusBar.background": "{palette.layout.statusBar}",
+    "quickInput.background": "{palette.neutral.02}",
+    "dropdown.background": "{palette.neutral.00}",
+    "textCodeBlock.background": "{palette.neutral.00}"
+  }
+}

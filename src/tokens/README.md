@@ -1,0 +1,24 @@
+## Valley Theme Tokens
+
+This folder centralizes color tokens so repeated hex values are easier to edit.
+
+### Files
+
+- `palette.json`: shared color palette used by all variants.
+- `dark-*.json`: variant overrides consumed by `src/colors.js`.
+
+### Token references
+
+Use `{palette.some.path}` inside variant files:
+
+```json
+{
+  "button.background": "{palette.brand.blueMuted}"
+}
+```
+
+During build, `src/colors.js` resolves these references into hex values.
+
+### Optional extraction
+
+Run `npm run tokens:extract` to generate `src/tmp/*.json` reports with repeated colors from current theme outputs.
